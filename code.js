@@ -1,8 +1,11 @@
 
 var ball;
 
+var up = window.innerHeight
+var right = window.innerWidth
+
 function setup() {
-  createCanvas(400, 300);
+  createCanvas(right, up);
   ball = new Ball();
 }
 
