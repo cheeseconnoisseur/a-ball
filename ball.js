@@ -32,7 +32,7 @@ function Ball(){
     ellipse(this.pos.x, this.pos.y, this.r, this.r);
     fill(255);
     textSize(32);
-  //  text('hey joe', this.pos.x, this.pos.y);
+    text('hey joe', this.pos.x, this.pos.y);
   }
 
 
